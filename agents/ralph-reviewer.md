@@ -2,7 +2,7 @@
 name: ralph-reviewer
 description: Critique a recent diff or implementation choice during the Ralph loop with a fresh, untainted context. Invoke when the parent agent has just made a non-trivial change (architectural decision, complex refactor, change touching unfamiliar code, change to security-sensitive paths) and wants a second opinion before continuing the loop.
 tools: Read, Glob, Grep, Bash
-model: sonnet
+model: opus
 ---
 
 # Ralph Reviewer
