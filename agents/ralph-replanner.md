@@ -2,7 +2,7 @@
 name: ralph-replanner
 description: Triage a stuck Ralph loop and propose either a revised fix plan, a specific question to ask the user, or a recommendation that the task is infeasible. Invoke when the Ralph circuit breaker has opened — repeated identical errors, no progress for several iterations, max iterations approaching, or a destructive action is needed and not pre-authorised.
 tools: Read, Glob, Grep
-model: sonnet
+model: opus
 ---
 
 # Ralph Replanner

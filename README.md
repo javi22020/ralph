@@ -78,7 +78,7 @@ A few choices that are worth flagging.
 ## Limits and caveats
 
 - **Not for irreversible production actions.** Ralph is autonomous, not unilateral. Anything destructive (force-push, prod migrations, `rm -rf` outside the working tree) opens the circuit breaker by design and surfaces to the user.
-- **Cost is real.** A long Ralph run consumes tokens and API budget. The default `max_iterations` of 50 is conservative; raise it deliberately.
+- **Cost is real.** A long Ralph run consumes tokens and API budget. The default `max_iterations` of 50 is conservative; raise it deliberately if you need more iterations.
 - **Exit criteria are everything.** A weak `PROMPT.md` produces a weak loop. The fastest way to make Ralph misbehave is to give it vague success conditions and walk away.
 
 ## License
